@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everyday Sound Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Everyday Sound Project</h1>
+    <p>Total Days: <span id="total-days">0</span></p>
+    <form id="filter-form">
+      <label>Start Date: <input type="date" id="start-date" /></label>
+      <label>End Date: <input type="date" id="end-date" /></label>
+      <button type="submit">Filter</button>
+    </form>
+    <div id="track-list"></div>
+  </main>
+
+  <script>
+    const SOUND_CLOUD_USER = 'standingwave';
+    // Replace with your SoundCloud API client ID
+    const SOUND_CLOUD_CLIENT_ID = 'YOUR_CLIENT_ID';
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
