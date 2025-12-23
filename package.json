@@ -1,0 +1,30 @@
+{
+  "name": "everyday_web",
+  "version": "1.0.0",
+  "description": "Web application for displaying Soundcloud clips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrapeData": "node scripts/scrapeData"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvande-standingwave/everyday_web.git"
+  },
+  "author": "Aaron Hathaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvande-standingwave/everyday_web/issues"
+  },
+  "homepage": "https://github.com/kvande-standingwave/everyday_web#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jsdom": "^11.6.2"
+  }
+}
